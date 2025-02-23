@@ -883,26 +883,26 @@ section,
 # Services Section
 --------------------------------------------------------------*/
 .services .service-item {
-  background-color: var(--surface-color);
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   padding: 50px 30px;
   transition: all 0.3s ease-in-out;
   height: 100%;
   position: relative;
   z-index: 1;
+  width: 400px;
 }
 
 .services .service-item:before {
   content: "";
   position: absolute;
-  background: var(--accent-color);
   inset: 100% 0 0 0;
   transition: all 0.3s;
   z-index: -1;
 }
 
-.services .service-item .icon {
-  margin-bottom: 10px;
+.services .service-item:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
 }
 
 .services .service-item .icon i {
@@ -932,11 +932,9 @@ section,
 .services .service-item:hover h4 a,
 .services .service-item:hover .icon i,
 .services .service-item:hover p {
-  color: var(--contrast-color);
 }
 
 .services .service-item:hover:before {
-  background: var(--accent-color);
   inset: 0;
   border-radius: 0px;
 }
