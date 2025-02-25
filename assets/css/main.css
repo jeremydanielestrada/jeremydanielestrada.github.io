@@ -881,7 +881,12 @@ section,
 
 /*--------------------------------------------------------------
 # Services Section
+
+
 --------------------------------------------------------------*/
+
+.services {
+}
 .services .service-item {
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   padding: 50px 30px;
@@ -889,7 +894,6 @@ section,
   height: 100%;
   position: relative;
   z-index: 1;
-  width: 400px;
 }
 
 .services .service-item:before {
