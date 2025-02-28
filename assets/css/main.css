@@ -1548,3 +1548,7 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+#cert img {
+  width: 300px;
+}
